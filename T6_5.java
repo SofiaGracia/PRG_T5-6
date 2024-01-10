@@ -4,8 +4,11 @@
  */
 package T5;
 
+<<<<<<< HEAD
 import Teclat.Teclat;
 
+=======
+>>>>>>> refs/remotes/remoto/exer5
 /**
  *
  * @author sofia
@@ -24,6 +27,7 @@ public class T6_5 {
         for (int dia = 1; dia <= DIES; dia++) {
             
             for (int volta = 0; volta < VOLTES; volta++) {
+<<<<<<< HEAD
                 System.out.println("Dia: "+dia+". Volta: "+volta);
                 
             }
@@ -83,5 +87,11 @@ public class T6_5 {
         }while(resposta != 0);
         
         System.out.println("---Has ixit del programa---");
+=======
+                System.out.println("dia: "+dia+". Volta: "+volta);
+                
+            }
+        }
+>>>>>>> refs/remotes/remoto/exer5
     }
 }
